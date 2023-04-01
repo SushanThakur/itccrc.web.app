@@ -1,4 +1,4 @@
 window.addEventListener('load', () => {
-    const preloder = document.querySelector('.preloder');
-    preloder.classList.add('invisible');
+    const preloader = document.querySelector('.preloader');
+    preloader.classList.add('invisible');
 })

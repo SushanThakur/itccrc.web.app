@@ -8,6 +8,7 @@ body {
     background-color: #333;
 }
 
+/* SVG SECTION BEGINS */
 .svg_construction {
     position: absolute;
     display: flex;
@@ -26,28 +27,10 @@ body {
     max-width: 830px;
 }
 
-.background_logo {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 80%;
+/* SVG SECTION ENDS */
 
-    top: 100px;
-    z-index: -5;
-
-    align-items: center;
-    justify-content: center;
-
-    border: yellow solid 2px;
-}
-
-.background_logo_png {
-    width: 500px;
-    filter: blur(5px) brightness(50%);
-}
 
 /* HEADER SECTION BEGINS */
-
 .header_club_info {
     position: relative;
     display: flex;
@@ -65,23 +48,9 @@ body {
     text-shadow: 3px 3px 10px rgb(108, 75, 255);
 }
 
-.header_club_info_name:hover {
-    color: rgb(0, 156, 218);
-    text-shadow: 3px 3px 4px rgb(57, 7, 255);
-    cursor: pointer;
-}
-
-.header_club_info_name_anchor {
-    text-decoration: none;
-}
-
-.header_club_info_name_anchor:active {
-    text-decoration: none;
-    color: none;
-}
+/* HEADER SECTION ENDS */
 
 /* MESSAGE SECTION BEGINS */
-
 .msg_container {
     height: 400px;
     width: 100%;
@@ -172,12 +141,9 @@ body {
     background-color: rgb(91, 121, 130);
 }
 
-.msg_container_submit:focus {
-    outline-width: 0;
-}
+/* MESSAGE SECTION ENDS */
 
 /* FOOTER SECTION */
-
 .footer_club_contact {
     position: absolute;
     display: block;
@@ -208,7 +174,9 @@ body {
     height: 70px;
 }
 
-/* BACKGROUND SVG */
+/* FOOTER ENDS */
+
+/* BACKGROUND SVG BEGINS*/
 #wheel_largest {
     animation: gearRotate 5s linear infinite;
     transform-origin: center;
@@ -274,3 +242,5 @@ body {
         transform: rotateZ(10deg);
     }
 }
+
+/* BACKGROUND SVG ENDS*/
