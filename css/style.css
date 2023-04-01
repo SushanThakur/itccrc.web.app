@@ -45,7 +45,7 @@ body {
     font-family: 'Press Start 2p', 'Inconsolata';
     font-size: 50px;
     text-align: center;
-    color: rgb(0, 156, 218);
+    color: whitesmoke;
     text-shadow: 3px 3px 10px rgb(108, 75, 255);
 }
 
@@ -72,14 +72,14 @@ body {
     font-family: 'Inconsolata';
     font-size: 40px;
     font-weight: bolder;
-    color: #00ff1a;
+    color: whitesmoke;
 }
 
 .msg_container_shortmsg {
     display: inline-block;
     font-family: 'Inconsolata';
     font-size: 25px;
-    color: #00ffff;
+    color: whitesmoke;
     margin-top: 0px;
 }
 
@@ -96,7 +96,7 @@ body {
 
     background-color: #eee;
 
-    border: 2px solid aqua;
+    border: 2px solid grey;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-right: none;
@@ -120,7 +120,7 @@ body {
     height: 40px;
     width: 20%;
 
-    border: 2px solid aqua;
+    border: 2px solid grey;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     border-left: none;
